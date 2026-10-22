@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+
+# ログイン状態（Cookie）は絶対にコミットしない
+amazon-state.json
+*.state.json
+storage-state*.json
